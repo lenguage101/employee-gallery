@@ -8,9 +8,10 @@ There are three breakpoints to correspond for mobile, tablet, and desktop. <br /
 ## Desktop 
 <img src="images/desktop-version.JPG" />
 
-## Tablet & Mobile
-
+## Tablet
 <img src="images/tablet-version.JPG" />
+
+## Mobile
 <img src="images/mobile-version.JPG" />
 
 ## Lightbox
