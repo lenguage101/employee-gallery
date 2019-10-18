@@ -34,7 +34,7 @@ $(document).ready(function(){
 			$('div.board').html(updateHTML);
 			$('a.modal').each(function(i){
 				$(this).attr('data-lightbox', 'img-' + i);
-				$(this).attr('data-title', 'X');
+				$(this).attr('data-title', 'Click to the left or right of the modal to exit');
 				$(this).css('color','#000');
 			})
 			$('p.phone').css('display', 'none');
