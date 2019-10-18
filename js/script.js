@@ -12,8 +12,7 @@ $(document).ready(function(){
 				//Adding Employing data to HTML		
 				let employee = data.results[i];
 				let location = employee.location;
-				let dob = employee.dob.date.substring(0, 9);
-				console.log(employee.location)
+				let dob = employee.dob.date.substring(0, 10);
 				updateHTML += '<div class="card">';
 				updateHTML += '<a class="modal" href="'+ employee.picture.large +'">' ;
 				updateHTML += '<div class="profile-pic">';
