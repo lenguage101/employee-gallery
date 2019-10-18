@@ -1,0 +1,97 @@
+body {
+	background:#f9f9f9;
+	font-family: 'Lato';
+}
+/********
+div.board
+*********/
+.board {
+	width: 95%;
+	margin: 0 auto;
+	overflow: auto;
+}
+/***********************
+Styling the profile card
+************************/
+.card{
+	width: 90%;
+	border: 1.5px solid rgba(0,0,0,.15);
+	border-radius: 5px;
+	margin: 20px auto;
+	overflow: auto:;
+	padding: 20px 0;
+	background: #fff;
+}
+.card:hover{
+	cursor: pointer;
+}
+.profile-pic{
+	width: 100%;
+	text-align: center;
+}
+.picture{
+	border-radius: 50%;
+}
+.profile-info {
+	text-align: center;
+}
+.name, .city, .street {
+	text-transform: capitalize;
+}
+.name {
+	font-weight: 700;
+}
+.board h1 {
+	display: none;
+}
+
+@media screen and (min-width: 768px){
+	.board h1 {
+		display: block;
+	}
+	.card {
+		width: 45%;
+		display: inline-block;
+	}
+	.card:nth-child(even){
+		float: right;
+	}
+	.card:nth-child(odd){
+		float: left;
+	}
+}
+@media screen and (min-width: 1024px){
+	.card:nth-child(odd),
+	.card:nth-child(even) {
+		float: none;
+	}
+	.profile-pic {
+		width: 30%;
+		display:inline-block;
+	}
+	.picture {
+		width: 85%;
+	}
+	.profile-info {
+		width: 67%;
+		text-align: left;
+		display: inline-block;
+		float: right;
+	}
+	.card {
+		width: 30%;
+	}	
+	.card:nth-child(3n+1){
+		margin-right: 0;
+	}
+	.card:nth-child(3n+2),
+	.card:nth-child(3n+3){
+		margin-right: 4.5%;
+	}
+
+}
+@media screen and (min-width: 1700px){
+	.profile-info{
+		width: 70%;
+	}
+}
