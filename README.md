@@ -6,12 +6,12 @@ To create a responsive employee gallery that incorporates a lightbox effect when
 There are three breakpoints to correspond for mobile, tablet, and desktop. <br />
 
 ## Desktop 
-<img src="images/desktop.JPG" />
+<img src="images/desktop-version.JPG" />
 
 ## Tablet & Mobile
 
-<img src="images/Tablet.JPG" />
-<img src="images/Mobile.JPG" />
+<img src="images/tablet-version.JPG" />
+<img src="images/mobile-version.JPG" />
 
 ## Lightbox
 
