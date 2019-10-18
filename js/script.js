@@ -18,7 +18,7 @@ $(document).ready(function(){
 				updateHTML += '<div class="profile-pic">';
 				updateHTML += '<img class="picture" src="' + employee.picture.large +'"></div>';
 				updateHTML += '<div class="profile-info">';
-				updateHTML += '<p class="name">' + employee.name.first + ' ' + employee.name.last + '</p>';
+				updateHTML += '<h4 class="name">' + employee.name.first + ' ' + employee.name.last + '</h4>';
 				updateHTML += '<p class="email">' + employee.email +'</p>';
 				updateHTML += '<p class="city">' + location.city + '</p>';
 				updateHTML += '<p class="phone">' + employee.phone + '</p>';
@@ -34,7 +34,7 @@ $(document).ready(function(){
 			$('div.board').html(updateHTML);
 			$('a.modal').each(function(i){
 				$(this).attr('data-lightbox', 'img-' + i);
-				$(this).attr('data-title', 'Click Outside the modal to exit');
+				$(this).attr('data-title', 'X');
 				$(this).css('color','#000');
 			})
 			$('p.phone').css('display', 'none');

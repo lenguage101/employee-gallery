@@ -35,6 +35,14 @@ Styling the profile card
 .profile-info {
 	text-align: center;
 }
+
+p {
+	font-size: .83em!important;
+}
+
+p.name {
+	font-size: 1.25em;
+}
 .name, .city, .street {
 	text-transform: capitalize;
 }
